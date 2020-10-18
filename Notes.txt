@@ -1,0 +1,90 @@
+
+Inroduction to HTML
+=========================
+
+Website - Collection of Webpages
+Software is Divided into  3 Categories
+
+1. Desktop Application --The Application going to run in one system 
+                    at a time. At a time One User can Use that.Need to 
+                    Install. Can built with C Sharp, C++, Java Techs.
+
+2. Web Application -- The Application used by Multiple Users at a time.
+                 App Stored in centralized system.in that we Install
+                 a software called WebServer, in that server we Install
+             our App. Now Your App is running in server.
+
+        With HTML, CSS, Bootstrap, Javascript can built Web Apps.    
+                     
+3. Mobile Application -- The Apps going to run in mobile devises.
+                     Techs like Java, React Native, Flutter ...
+
+      *******************************#####################################
+
+    
+    WEB APPLICATION ARCHITECHTURE LAYER into 3 COMPONENTS
+    (Web App divided into 3 Components)
+
+1.Presentation Layer -- Contains User Interface(UI). For this Need
+                       HTML, CSS, JS, Bootstrap, React Library,
+                       Framework(Angular), VIU JS.
+
+        comes under FRONT END.....
+
+2.Business Layer -- Need Techs like ASP.NET- uses C#
+                                   SPRING- uses Java
+                                   DJANGO- uses Python
+   
+   This Layer going to deal your Data. Like after doing Login Can see 
+   our Account details, that logic is in this layer.
+
+3.DataBase Layer -- ORACLE, MYSQL, SQLSERVER, MONGODB
+
+=======================================================================
+
+HTML- Hyper Text Markup Language.--It is used to provide some Content on webpage.
+      It has some set of tags.
+     By using tags can built buttons, images,..... can Build UI
+     
+     <body>(Starting Tag or Opening Tag)
+       will write somthing in b/w tags.
+     </body>(Ending Tag or Closing Tag)
+       The entire above is called ELEMENT
+
+       Heading Tags-- 6 Heading Tags.
+                  <h1> <h2> <h3> <h4> <h5> <h6>
+
+        Attribute--if u want add more to tag use this.this is also like key:value   pair
+                           <p name:"first"></p> (name:"first"-this is Attribute)
+
+                Division = div tag
+                <div></div>
+
+          --In HTML if you want to create sections as shown below use this <div>
+
+          Like in BROWSER
+                    WEB PAGE 
+                      Section 1
+                      section 2
+                      section 3
+
+  --If you want to write 100 lines in paragraph, use below syntax.
+       <p>Lorem100</p>(after press TAB)  ,<p>Lorem200</p>(after press TAB)
+-----------------------------------------------------------------------------------
+
+CSS --Used to give proper styling for that Web page.
+          Use below Tags.
+
+              <style>
+              (* This STYLE TAG should be present in Head Tag of HTML)
+
+              CSS is in b/w {
+                  these curly Braces. should be like           key:value               pair.
+                                                  background-color:blue    (this is called Property)
+                                                             color:red
+            
+            --for space use property called "Padding"
+              }
+              </style>
+
+      <span>- if you want to give a particular character or a word or a sentence, keep that b/w span tag.
